@@ -1,0 +1,1 @@
+export { fetchLatestTweets } from './fetchLatestTweets';

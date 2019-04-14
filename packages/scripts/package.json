@@ -1,0 +1,15 @@
+{
+  "name": "@gitwitter/tools-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for use within Gitwitter Monorepo",
+  "main": "index.js",
+  "license": "None",
+  "private": true,
+  "bin": {
+    "gitwitter-start": "start/index.js"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30000925",
+    "nodemon": "^1.18.9"
+  }
+}

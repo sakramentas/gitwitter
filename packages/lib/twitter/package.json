@@ -1,0 +1,16 @@
+{
+  "name": "@gitwitter/lib-twitter",
+  "version": "1.0.0",
+  "description": "Twitter API helpers for use within Gitwitter Monorepo",
+  "main": "index.js",
+  "license": "None",
+  "private": true,
+  "scripts": {
+    "test": "yarn run jest"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.7.1",
+    "node-fetch": "^2.3.0"
+  }
+}

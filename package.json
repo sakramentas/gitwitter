@@ -1,0 +1,54 @@
+{
+  "name": "gitwitter",
+  "version": "1.0.0",
+  "description": "Gitwitter Monorepo",
+  "main": "index.js",
+  "author": {
+    "name": "Lucas Sacramento",
+    "email": "lucas.arki@gmail.com",
+    "url": "https://www.linkedin.com/in/lucassacramento/"
+  },
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.14.1",
+    "yarn": ">=1.12.3"
+  },
+  "workspaces": [
+    "packages/**",
+    "products/**"
+  ],
+  "dependencies": {
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3"
+  },
+  "jest": {
+    "verbose": true,
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "coverageReporters": [
+      "text-summary",
+      "html",
+      "lcov"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "testMatch": [
+      "**/__tests__/*.test.js"
+    ]
+  }
+}
