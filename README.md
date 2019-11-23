@@ -1,4 +1,4 @@
-# Gitwitter Monorepo
+# GiTwitter
 
 ## Packages
 - **Twitter** - Gitwitter Twitter API Helper library
